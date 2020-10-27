@@ -1,4 +1,4 @@
-## Hi there, I am a Denis 👋
+## Hi there, I'm Denis 👋
 
 Here are some ideas to get you started:
 
