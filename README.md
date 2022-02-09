@@ -3,12 +3,7 @@
 ![GitHub followers](https://img.shields.io/github/followers/josserden)
 
 ---
-
-- 🔭 I am currently working on different tasks.
-- 🌱 I’m currently learning everything about front-end development.
-- 🤔 I am looking for help to get as much information as possible.
-- ⚡ Fun fact: I like to do what I do.
-
+ 👉 I like to do what I do.
 ---
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=josserden&show_icons=true&theme=dracula)
