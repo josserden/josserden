@@ -7,7 +7,6 @@
 ---
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=josserden&show_icons=true&theme=dracula)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=josserden&hide=javascript,html&show_icons=true&theme=dracula&card_width=495&langs_count=10)
 
 ---
 
