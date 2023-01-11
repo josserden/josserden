@@ -6,7 +6,7 @@
  👉 I like to do what I do.
 ---
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=josserden&show_icons=true&theme=github)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=josserden&show_icons=true&theme=dracula)
 
 ---
 
@@ -16,17 +16,11 @@
 <img align="left" alt="HTML5" width="42px" src="https://cdn.svgporn.com/logos/html-5.svg" />
 <img align="left" alt="CSS3" width="42px" src="https://cdn.svgporn.com/logos/css-3.svg" />
 <img align="left" alt="JavaScript" width="42px" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/javascript.svg" />
-
 <img align="left" alt="TypeScript" width="42px" src="https://cdn.svgporn.com/logos/typescript-icon.svg" />
-
 <img align="left" alt="React" width="42px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
-
 <img align="left" alt="Next" width="42px" src="https://cdn.svgporn.com/logos/nextjs-icon.svg" />
-
 <img align="left" alt="Gatsby" width="42px" src="https://cdn.svgporn.com/logos/gatsby.svg" />
-
 <img align="left" alt="json" width="42px" src="https://cdn.svgporn.com/logos/json.svg" />
-
 <img align="left" alt="Sass" width="42px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />
 <img align="left"  alt="Tailwindcss" width="42px" src="https://cdn.svgporn.com/logos/tailwindcss-icon.svg" />
 <img align="left"  alt="PostCSS" width="42px" src="https://cdn.svgporn.com/logos/postcss.svg" />
