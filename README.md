@@ -6,7 +6,7 @@
  👉 I like to do what I do.
 ---
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=josserden&show_icons=true&theme=dracula)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=josserden&show_icons=true&theme=github)
 
 ---
 
