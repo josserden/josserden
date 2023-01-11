@@ -12,7 +12,7 @@
 
 ### My stack and tools
 
-<img align="left" color="white" alt="GitHub" width="40px" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/github.svg" />
+<img align="left"  alt="Visual Studio Code" width="40px" src="https://cdn.svgporn.com/logos/visual-studio-code.svg" />
 
 <img align="left" alt="HTML5" width="40px" src="https://cdn.svgporn.com/logos/html-5.svg" />
 
@@ -44,10 +44,10 @@
 
 <img align="left" alt="GraphQL" width="40px" src="https://cdn.svgporn.com/logos/graphql.svg" />
 
-<img align="left" alt="Axios" width="40px" src="https://cdn.svgporn.com/logos/axios.svg" />
+<img align="left" alt="Axios" width="50px" src="https://cdn.svgporn.com/logos/axios.svg" />
 
 <img align="left" alt="Webpack" width="40px" src="https://cdn.svgporn.com/logos/webpack.svg" />
 
-<img align="left" alt="Wordpress" width="40px" src="https://wordpress.org/" />
+<img align="left" alt="Wordpress" width="40px" src="https://cdn.svgporn.com/logos/wordpress-icon-alt.svg" />
 
-<img align="left"  alt="Visual Studio Code" width="40px" src="https://cdn.svgporn.com/logos/visual-studio-code.svg" />
+
