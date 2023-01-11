@@ -44,10 +44,6 @@
 
 <img align="left" alt="GraphQL" width="40px" src="https://cdn.svgporn.com/logos/graphql.svg" />
 
-<img align="left" alt="Axios" width="50px" src="https://cdn.svgporn.com/logos/axios.svg" />
-
 <img align="left" alt="Webpack" width="40px" src="https://cdn.svgporn.com/logos/webpack.svg" />
 
 <img align="left" alt="Wordpress" width="40px" src="https://cdn.svgporn.com/logos/wordpress-icon-alt.svg" />
-
-
