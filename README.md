@@ -5,8 +5,9 @@
 ---
 
 <img src="https://github-readme-stats.vercel.app/api?username=josserden&show_icons=true&locale=en" alt="GitHub stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=josserden&" alt="Commit current streak"/>
+<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=josserden&short_numbers=true&hide_total_contributions=true" alt="GitHub Streak" /></a>
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=josserden&show_icons=true&locale=en&layout=compact" alt="Most used languages"/>
+
 
 ### 🔨 Skills
  
