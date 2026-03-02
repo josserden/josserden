@@ -4,8 +4,10 @@
 
 ---
 <!-- <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=josserden&short_numbers=true&hide_total_contributions=true" alt="GitHub Streak" /> -->
-[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=josserden&rank_icon=github&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage,prs_commented,prs_reviewed,issues_commented&show_icons=true&include_all_commits=true&theme=transparent)](https://github-stats-extended.vercel.app/api?username=josserden&rank_icon=github&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage,prs_commented,prs_reviewed,issues_commented&show_icons=true&include_all_commits=true&theme=transparent)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=josserden&layout=pie&langs_count=6&theme=transparent)](https://github-stats-extended.vercel.app/api/top-langs?username=josserden&layout=pie&langs_count=6&theme=transparent)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=josserden&layout=pie&langs_count=7&theme=transparent)](https://github-stats-extended.vercel.app/api/top-langs?username=josserden&layout=pie&langs_count=7&theme=transparent)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=josserden&rank_icon=github&hide_title=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage,prs_commented,prs_reviewed,issues_commented&show_icons=true&include_all_commits=true&theme=transparent)](https://github-stats-extended.vercel.app/api?username=josserden&rank_icon=github&hide_title=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage,prs_commented,prs_reviewed,issues_commented&show_icons=true&include_all_commits=true&theme=transparent)
+
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=josserden&repo=josserden/nextjs-boilerplate&description_lines_count=3&theme=transparent)](https://github.com/josserden/nextjs-boilerplate)
 
 ### 🔨 Skills
  
