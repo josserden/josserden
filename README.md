@@ -3,11 +3,9 @@
 <h2 align="center"> I enjoy doing what I do and I love cats 😸</p>
 
 ---
-
-<img src="https://github-readme-stats.vercel.app/api?username=josserden&show_icons=true&locale=en" alt="GitHub stats"/>
-<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=josserden&short_numbers=true&hide_total_contributions=true" alt="GitHub Streak" /></a>
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=josserden&show_icons=true&locale=en&layout=compact" alt="Most used languages"/>
-
+<!-- <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=josserden&short_numbers=true&hide_total_contributions=true" alt="GitHub Streak" /> -->
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=josserden&rank_icon=github&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage,prs_commented,prs_reviewed,issues_commented&show_icons=true&include_all_commits=true&theme=transparent)](https://github-stats-extended.vercel.app/api?username=josserden&rank_icon=github&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage,prs_commented,prs_reviewed,issues_commented&show_icons=true&include_all_commits=true&theme=transparent)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=josserden&layout=pie&langs_count=6&theme=transparent)](https://github-stats-extended.vercel.app/api/top-langs?username=josserden&layout=pie&langs_count=6&theme=transparent)
 
 ### 🔨 Skills
  
