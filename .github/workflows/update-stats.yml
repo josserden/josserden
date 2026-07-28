@@ -2,12 +2,11 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: "0 3 * * *" # daily at 03:00 UTC
+    - cron: "0 3 * * 1" # weekly, Monday at 03:00 UTC
   workflow_dispatch: # allows manual run from the Actions tab
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   update-stats:
@@ -40,25 +39,33 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit changes via PR (main requires verified signatures)
+      - name: Commit changed files directly (signed via Contents API)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
+          REPO="${{ github.repository }}"
 
-          if git diff --cached --quiet; then
-            echo "No stats changes — skipping."
-            exit 0
-          fi
+          for f in profile/streak-stats.svg profile/stats.svg profile/top-langs.svg; do
+            [ -f "$f" ] || continue
 
-          BRANCH="stats-update-$(date +%s)"
-          git checkout -b "$BRANCH"
-          git commit -m "chore: update GitHub stats"
-          git push origin "$BRANCH"
+            remote_json=$(gh api "repos/$REPO/contents/$f?ref=main" 2>/dev/null) || remote_json=""
 
-          gh pr create --title "chore: update GitHub stats" \
-            --body "Automated daily stats update." \
-            --base main --head "$BRANCH"
-          gh pr merge "$BRANCH" --squash
+            if [ -n "$remote_json" ]; then
+              remote_sha=$(echo "$remote_json" | jq -r '.sha')
+              if echo "$remote_json" | jq -r '.content' | tr -d '\n' | base64 -d | cmp -s - "$f"; then
+                echo "No change: $f"
+                continue
+              fi
+              sha_args=(-f "sha=$remote_sha")
+            else
+              sha_args=()
+            fi
+
+            content_b64=$(base64 -w0 "$f")
+            gh api --method PUT "repos/$REPO/contents/$f" \
+              -f "message=chore: update $(basename "$f")" \
+              -f "content=$content_b64" \
+              -f "branch=main" \
+              "${sha_args[@]}"
+            echo "Updated: $f"
+          done
