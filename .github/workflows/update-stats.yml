@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   update-stats:
@@ -39,10 +40,25 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit changes
+      - name: Commit changes via PR (main requires verified signatures)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
-          git commit -m "chore: update GitHub stats" || exit 0
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No stats changes — skipping."
+            exit 0
+          fi
+
+          BRANCH="stats-update-$(date +%s)"
+          git checkout -b "$BRANCH"
+          git commit -m "chore: update GitHub stats"
+          git push origin "$BRANCH"
+
+          gh pr create --title "chore: update GitHub stats" \
+            --body "Automated daily stats update." \
+            --base main --head "$BRANCH"
+          gh pr merge "$BRANCH" --squash
